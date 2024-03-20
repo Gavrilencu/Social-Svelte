@@ -10,7 +10,7 @@
     try {
       // Înlocuiește URL-ul cu adresa reală a serverului tău și portul corespunzător
       const response = await fetch(
-        `http://localhost:3000/friends/` + localStorage.getItem("id")
+        `https://www.gavrilencu.com/friends/` + localStorage.getItem("id")
       );
       if (response.ok) {
         const data = await response.json();
